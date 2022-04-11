@@ -30,5 +30,5 @@ server
 .post("/save-classes", saveClasses)
 .get("/success", pageSuccess)
 // start
-.listen(5500)
+.listen(process.env.PORT || 3000)
 
