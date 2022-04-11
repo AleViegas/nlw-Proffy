@@ -5,8 +5,9 @@ const server = express()
 
 const { pageLanding, pageStudy, pageGiveClasses, saveClasses, pageSuccess } = require("./pages")
 
-// template engine, adicionar varias funcionalidades para o html (quase uma biblioteca)
+// template engine, adicionar varias funcionalidades para o html
 // configuração do nunjucks
+const ale = null
 const nunjucks = require("nunjucks")
 const { query } = require("express")
 // recebe o diretorio das htmls, a função do server e no cache
